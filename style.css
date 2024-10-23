@@ -14,6 +14,11 @@ color:rgb(227, 223, 223);
   transform: translate(-50%, -50%); /* Shifts the header back to the center */
 
 }
+@media (max-width:768px) {
+    .h1{
+        font-size: small;
+    }
+}
 .container{
     display:flex;            /* Use flexbox for the container */
     justify-content: space-between; /* Space between items */
@@ -27,8 +32,9 @@ color:rgb(227, 223, 223);
 @media (max-width: 768px) {
     /* Ensure both textbox and button are stacked properly */
     .container {
-      flex-direction: column;
+      flex-direction:column;
       align-items: center;
+    
     }}
         
 .text-box{
@@ -104,7 +110,7 @@ button:hover{
     button {
       width: 50%;       /* Make the button full width */
       margin-top: 20px;
-      bottom: 30px;   /* Add space between text and button */
+      bottom: 0 px;   /* Add space between text and button */
     }
   }
  
