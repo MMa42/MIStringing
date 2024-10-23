@@ -15,15 +15,21 @@ color:rgb(227, 223, 223);
 
 }
 .container{
-    display: flex;            /* Use flexbox for the container */
+    display:flex;            /* Use flexbox for the container */
     justify-content: space-between; /* Space between items */
     align-items: center;      /* Center items vertically */
     height: 100vh;           /* Full viewport height */
     padding: 20px; 
     margin-top: 1px;
-    margin-left: 47px;
+    margin-left: 0%;
     gap: 50px;
 }
+@media (max-width: 768px) {
+    /* Ensure both textbox and button are stacked properly */
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }}
         
 .text-box{
     flex: 1;
