@@ -2,6 +2,7 @@ body{
     margin: 0;                /* Remove default margin */
     height: 100%; 
     background-color: rgba(126, 0, 0, 0.828);
+    overflow-x: hidden;
 }
 h1{
 position: fixed;
