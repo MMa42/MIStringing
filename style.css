@@ -99,7 +99,7 @@ button{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: absolute; /* Positions button relative to the nearest positioned ancestor */
     left: 50%;
-    bottom: 130px;
+    bottom: 10px;
     transform: translateX(-50%);
     padding: 10px 10px;
     margin: 20px auto 0;
@@ -117,8 +117,7 @@ button:hover{
     button {
       position: fixed;
         width: 50%;       /* Make the button full width */
-      margin-top: 20px;
-      bottom: 0 px;   /* Add space between text and button */
+      bottom: 10 px;   /* Add space between text and button */
     }
   }
  
