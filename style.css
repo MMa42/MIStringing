@@ -29,12 +29,15 @@ color:rgb(227, 223, 223);
     position: relative;
     top: -75px;
     text-align: center;
+  
 }
 @media (max-width: 768px) {
     .textbox {
       position: relative; /* Keep it in normal document flow */
       top: -200px;          /* Reset top position */
       margin-top: 150px;   /* Add extra margin below heading */
+      min-height: 100vh;
+      width: 100%;
     }
   }
 p {
@@ -91,7 +94,7 @@ button:hover{
 @media (max-width: 768px) {
     /* Stack text and button vertically on mobile */
     button {
-      width: 100%;       /* Make the button full width */
+      width: 50%;       /* Make the button full width */
       margin-top: 20px;
       bottom: 30px;   /* Add space between text and button */
     }
