@@ -34,7 +34,8 @@ color:rgb(227, 223, 223);
 }
 @media (max-width: 768px) {
     .textbox {
-      position: relative; /* Keep it in normal document flow */
+      align-self: center;
+    position: relative; /* Keep it in normal document flow */
       top: -200px;          /* Reset top position */
       margin-top: 150px;   /* Add extra margin below heading */
       min-height: 100vh;
