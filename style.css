@@ -25,7 +25,7 @@ color:rgb(227, 223, 223);
     align-items: center;      /* Center items vertically */
     height: 100vh;           /* Full viewport height */
     padding: 20px; 
-    margin-top: 1px;
+    margin-top: 50px;
     margin-left: 3%;
     gap: 50px;
 }
@@ -48,13 +48,13 @@ color:rgb(227, 223, 223);
     .textbox {
       align-self: center;
     position: relative; /* Keep it in normal document flow */
-      top: -200px;          /* Reset top position */
-      margin-top: 150px;   /* Add extra margin below heading */
+      top: -500px;          /* Reset top position */
+      margin-bottom: 150px;   /* Add extra margin below heading */
       min-height: 100vh;
       width: 100%;
     }
   }
-p {
+.info {
         /* Center text inside the paragraph */
     padding: 10px;           /* Optional: padding around the text */
     border: 10px solid black;  /* Optional: border around the paragraph */
@@ -62,8 +62,14 @@ p {
     border-radius: 15px;  
     margin-right: 10px; 
     margin-left: 10px;
+    margin-top: 5%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+}
+@media (max-width: 768px){
+    .info{
+        margin-top: 50%;
+    }
 }
 
 .left-column, .right-column{
