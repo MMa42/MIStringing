@@ -117,6 +117,7 @@ button:hover{
     /* Stack text and button vertically on mobile */
     button {
       position: fixed;
+        z-index: 10;
         width: 50%;       /* Make the button full width */
       bottom: 10 px;   /* Add space between text and button */
     }
