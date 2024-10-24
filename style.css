@@ -98,7 +98,7 @@ button{
     font-size: 12px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: fixed; /* Positions button relative to the nearest positioned ancestor */
-    z-index: 10;
+    z-index: 9999;
     left: 50%;
     bottom: 10px;
     transform: translateX(-50%);
@@ -117,7 +117,7 @@ button:hover{
     /* Stack text and button vertically on mobile */
     button {
       position: fixed;
-        z-index: 10;
+        z-index: 9999;
         width: 50%;       /* Make the button full width */
       bottom: 10 px;   /* Add space between text and button */
     }
