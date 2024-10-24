@@ -97,7 +97,8 @@ button{
     display: block;
     font-size: 12px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute; /* Positions button relative to the nearest positioned ancestor */
+    position: fixed; /* Positions button relative to the nearest positioned ancestor */
+    z-index: 10;
     left: 50%;
     bottom: 10px;
     transform: translateX(-50%);
