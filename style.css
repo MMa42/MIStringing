@@ -1,14 +1,14 @@
 body{
     margin: 0;                /* Remove default margin */
     height: 100%; 
-    background-color: rgba(126, 0, 0, 0.828);
+    background-color: rgb(112,195,94;
     overflow-x: hidden;
 }
 h1{
 position: fixed;
-font-family:cursive;
+font-family:inherit;
 text-align: center;
-font-size: 50px;
+font-size: 60px;
 color:rgb(227, 223, 223);
   left: 50%;
   transform: translate(-50%, -50%); /* Shifts the header back to the center */
